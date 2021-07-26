@@ -7,8 +7,9 @@ A website that offers fitness training services.
 * HTML
 * CSS
 
-## Website
+## 
+Website
 https://lernantino.github.io/run-buddy/
 
 ## Contribution
-Made with ❤️ by [your name]
+Made with ❤️ by Calvin Donner
