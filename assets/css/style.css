@@ -5,11 +5,11 @@
 }
 
 body {
-    /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
   }
-/* apply styles to <header> */
+
+/* Header / NAV BAR STYLES START*/
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -43,6 +43,10 @@ header nav ul li a {
     font-size: 22px;
 }
 
+/* HEADER/NAVBAR STYLES END */
+
+
+/* FOOTER STYLES START */
 footer {
     background: #fce138;
     width: 100%;
@@ -66,19 +70,21 @@ footer a {
     color: #024e76;
 }
 
+/* END FOOTER STYLES */
+
+/* STYLE ALL SECTION TAGS */
 section {
     padding:60px;
 }
 
 /* Hero Style Start */
 .hero {
-    background-image: url("https://static.fullstack-bootcamp.com/module-1/hero-bg.jpg");
+    background-image: url('../images/hero-bg.jpg');
     height: 600px;
     background-size: cover;
     background-position: center;
     position: relative;
 }
-/* Hero Style End */
 
 .hero-form {
     border: solid 3px #024e76;
@@ -121,6 +127,8 @@ section {
     padding: 10px 20px;
     font-size: 16px;
 }
+
+/* Hero Style End */
 
 .section-title {
     font-size: 55px;
@@ -203,14 +211,6 @@ section {
     width: 65%;
 }
 
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
-
 .trainer-bio h3 {
     font-size: 32px;
     margin-bottom: 8px;
@@ -232,17 +232,7 @@ section {
     background: #024e76;    
 }
 
-.section-title {
-    font-size: 55px;
-    display: inline-block;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    margin-bottom: 35px;
-    color: #39a6b2;
-}
-
 .contact h2 {
-    border-color: #39a6b2;
     color: #fce138;
 }
 
@@ -263,8 +253,6 @@ section {
 .contact-info h3 {
     color: #fce138;
     font-size: 32px;
-    text-align: left;
-    margin: 0 0 20px 0;
 }
 
 .contact-info p, .contact-info address {
@@ -276,6 +264,14 @@ section {
 
 .contact-info a {
     color: #fce138;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
 }
 
 
